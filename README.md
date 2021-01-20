@@ -516,7 +516,7 @@ for track in first_twenty_songs:
 
 # Task 10
 
-Create a dictionary called `song_dicitonary` which consists of each track name `string` as a key and a `list` of artists associated with each track as a value.
+Create a dictionary called `song_dictionary` which consists of each track name `string` as a key and a `list` of artists associated with each track as a value.
 
 
 ```python

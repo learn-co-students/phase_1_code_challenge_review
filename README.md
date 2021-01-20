@@ -393,7 +393,7 @@ facebook['likes_per_impression'] = facebook['like']/facebook['Lifetime Post Tota
 
 # Task 4
 
-Locate the `record` associated **Photo** with the largest value in the `like` column
+Locate the `record` of a **Photo** that has the largest value in the `like` column
 
 
 ```python
@@ -401,74 +401,16 @@ facebook[(facebook['Type']=='Photo') & (facebook['like']==facebook['like'].max()
 ```
 
 
+    ---------------------------------------------------------------------------
 
+    NameError                                 Traceback (most recent call last)
 
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
+    <ipython-input-2-f1985aa70b75> in <module>
+          1 #__SOLUTION__
+    ----> 2 facebook[(facebook['Type']=='Photo') & (facebook['like']==facebook['like'].max())]
+    
 
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>Page total likes</th>
-      <th>Type</th>
-      <th>Category</th>
-      <th>Post Month</th>
-      <th>Post Weekday</th>
-      <th>Post Hour</th>
-      <th>Paid</th>
-      <th>Lifetime Post Total Reach</th>
-      <th>Lifetime Post Total Impressions</th>
-      <th>Lifetime Engaged Users</th>
-      <th>Lifetime Post Consumers</th>
-      <th>Lifetime Post Consumptions</th>
-      <th>Lifetime Post Impressions by people who have liked your Page</th>
-      <th>Lifetime Post reach by people who like your Page</th>
-      <th>Lifetime People who have liked your Page and engaged with your post</th>
-      <th>comment</th>
-      <th>like</th>
-      <th>share</th>
-      <th>Total Interactions</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>244</th>
-      <td>130791</td>
-      <td>Photo</td>
-      <td>2</td>
-      <td>7</td>
-      <td>3</td>
-      <td>5</td>
-      <td>1.0</td>
-      <td>180480</td>
-      <td>319133</td>
-      <td>8072</td>
-      <td>4010</td>
-      <td>6242</td>
-      <td>108752</td>
-      <td>51456</td>
-      <td>3316</td>
-      <td>372</td>
-      <td>5172.0</td>
-      <td>790.0</td>
-      <td>6334</td>
-    </tr>
-  </tbody>
-</table>
-</div>
-
+    NameError: name 'facebook' is not defined
 
 
 # Task 5

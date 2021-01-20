@@ -461,6 +461,7 @@ What is the mean number of Total Interactions for photos?
 
 
 ```python
+# Your code here
 mean_interactions_photos = None
 ```
 
@@ -490,7 +491,7 @@ Use the `plt.subplot` method if you can, but if you can't, resort to the `plt` s
 
 
 ```python
-
+# Your code here
 ```
 
 
@@ -620,7 +621,14 @@ for track in first_twenty_songs:
 
 # Task 10
 
-Create a dictionary called `song_dicitonary` which consists of each track name `string` as a key and a `list` of artists associated with each track as a value.
+Create a dictionary called `song_dictionary` which consists of each track name `string` as a key and a `list` of artists associated with each track as a value.
+
+
+```python
+song_dictionary = {}
+
+# Your code here
+```
 
 
 ```python
